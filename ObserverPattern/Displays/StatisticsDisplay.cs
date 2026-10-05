@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern.Displays
 {
+    // TODO: Inherit WeatherDisplay
     internal class StatisticsDisplay : Observer, DisplayElement
     {
         private float temperature;
@@ -16,18 +17,18 @@ namespace ObserverPattern.Displays
         private int countUpdated = 0;
         private Subject weatherData;
         public StatisticsDisplay(Subject weatherData) 
-        { 
-            // Set the field and register itself with the weatherdata subject
+        {
+            // TODO: Set the field and register itself with the weatherdata subject
         }
         public void Update(float temp, float humidity, float pressure)
         {
-            // Set the correct fields with the relevant parameters
-            Display();
+            // TODO: Set the correct fields with the relevant parameters
+            Display(); // Notice how we're calling Display() in EVERY display subclass?
         }
 
         public void Display()
         {
-            // Print the average, maximum and minimum temperature. Use appropriate fields
+            // TODO: Print the average, maximum and minimum temperature. Use appropriate fields
         }
     }
 }

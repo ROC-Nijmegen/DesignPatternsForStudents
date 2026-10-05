@@ -7,24 +7,25 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern.Displays
 {
+    // TODO: Inherit WeatherDisplay
     internal class ForecastDisplay : Observer, DisplayElement
     {
         private float temperature;
         private float humidity;
         private Subject weatherData;
         public ForecastDisplay(Subject weatherData) 
-        { 
-            // Set the field and register itself with the weatherdata subject
+        
+            // TODO: Set the field and register itself with the weatherdata subject
         }
         public void Update(float temp, float humidity, float pressure)
         {
-            // Set the correct fields with the relevant parameters
-            Display();
+            // TODO: Set the correct fields with the relevant parameters
+            Display(); // Notice how we're calling Display() in EVERY display subclass?
         }
 
         public void Display()
         {
-            // Print a forecast message based on the current temperature and humidity
+            // TODO: Print a forecast message based on the current temperature and humidity
         }
     }
 }
