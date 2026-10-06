@@ -9,18 +9,12 @@ namespace DecoratorPattern.Condiments
 {
     internal class Water :CondimentDecorator
     {
-        public Water(Beverage beverage):base(beverage) 
+        public Water(Beverage beverage):base(beverage, "Water") 
         {
-
         }
         public override double cost()
         {
-            return 0.50 + baseBeverage.cost();
-        }
-
-        public override string GetDescription()
-        {
-            return baseBeverage.GetDescription() + ", Water";
+            return 0.50 + (baseBeverage?.cost() ?? 0);
         }
     }
 }

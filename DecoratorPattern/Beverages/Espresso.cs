@@ -8,14 +8,9 @@ namespace DecoratorPattern.Beverages
 {
     internal class Espresso : Beverage
     {
-        public Espresso()
+        public Espresso(Size size) : base("Espresso", size)
         {
-            description = "Espresso";
         
-        }
-        public override string GetDescription()
-        {
-            return description;
         }
         public override double cost()
         {

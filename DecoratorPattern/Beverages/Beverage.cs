@@ -17,17 +17,21 @@ namespace DecoratorPattern.Beverages
         public Size Size 
         { 
             get { return size; } 
-            set { size = value; } 
         }
         private Size size;
-
         protected string description = "Unknown";
+        public Beverage(string description, Size size)
+        {
+            this.description = description;
+            this.size = size;
+        }
 
         public virtual string GetDescription()
         {
             return description;
         }
 
+        // TODO: Implement Size calculations for each beverage and condiment
         public abstract double cost();
     }
 }
