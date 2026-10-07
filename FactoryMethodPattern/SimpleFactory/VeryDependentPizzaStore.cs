@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleFactory
 {
+    // This is a bad example of a PizzaStore. It is dependent on concrete classes.
     internal class VeryDependentPizzaStore
     {
         public Pizza CreatePizza(string style, string type)
@@ -54,8 +55,6 @@ namespace SimpleFactory
                 Console.WriteLine("Error: Invalid input");
                 return null;
             }
-
-            // Voeg de California Pizza class toe. Van hoeveel concrete pizza classes is deze class nu afhankelijk?
 
             pizza.Prepare();
             pizza.Bake();

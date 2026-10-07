@@ -8,7 +8,7 @@ namespace SimpleFactory
 {
     internal class SimplePizzaFactory
     {
-        public virtual Pizza CreatePizza(string type)
+        public Pizza CreatePizza(string type)
         {
             Pizza pizza = null;
 
@@ -29,6 +29,10 @@ namespace SimpleFactory
                 pizza = new VeggiePizza();
             }
 
+            pizza.Prepare();
+            pizza.Bake();
+            pizza.Cut();
+            pizza.Box();
             return pizza;
         }
     }
