@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="DecoratorPattern/DecoratorPattern.csproj" />
+  <Project Path="FactoryMethodPattern/AbstractFactory/AbstractFactory/AbstractFactoryPattern.csproj" />
+  <Project Path="FactoryMethodPattern/SimpleFactory/SimpleFactory.csproj" />
+  <Project Path="FactoryMethodPattern/SimpleFactoryToAbstract/SimpleFactoryToAbstract.csproj" />
 </Solution>
