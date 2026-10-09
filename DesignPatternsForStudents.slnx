@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="FactoryMethodPattern/Design Patterns - 004 - Abstract Factory Method Pattern.docx" />
+  </Folder>
   <Project Path="FactoryMethodPattern/AbstractFactory/AbstractFactory/AbstractFactoryPattern.csproj" />
   <Project Path="FactoryMethodPattern/SimpleFactory/SimpleFactory.csproj" />
   <Project Path="FactoryMethodPattern/SimpleFactoryToAbstract/SimpleFactoryToAbstract.csproj" />
