@@ -10,7 +10,8 @@ namespace CommandPattern
         {
             RemoteControl remoteControl = new RemoteControl();
 
-            /* Define and instantiate the following Vendor classes
+            /* TODO: 
+             * Define and instantiate the following Vendor classes
              * Kitchen Light : Light
              * Livingroom Light : Light
              * Livingroom ceiling fan : CeilingFan
@@ -19,9 +20,9 @@ namespace CommandPattern
              */
             Light kitchenLight = new Light("Kitchen");
             Light livingRoomLight = new Light("Living Room");
-            // Define and instantiate an Off and On command for each Vendor class
+            // TODO: Define and instantiate an Off and On command for each Vendor class
 
-            /* Set the On and Off commands to the appropriate slot:
+            /* TODO: Set the On and Off commands to the appropriate slot:
              * 
              * 1: Living Room light
              * 2: Kitchen light
@@ -32,7 +33,7 @@ namespace CommandPattern
 
             Console.WriteLine(remoteControl);
 
-            // Test the pressing of Buttons here. Don't forget to test the Undo button
+            // TODO: Extensively test the pressing of Buttons here. Don't forget to test the Undo button
 
 
         }
