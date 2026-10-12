@@ -1,6 +1,4 @@
-﻿using CommandPattern.Classes;
-using CommandPattern.Classes.Commands;
-using VendorClasses;
+﻿using VendorClasses;
 
 namespace CommandPattern
 {

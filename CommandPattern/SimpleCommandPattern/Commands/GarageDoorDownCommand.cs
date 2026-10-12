@@ -1,11 +1,11 @@
 ﻿using VendorClasses;
 
-namespace SimpleCommandPattern.Classes.Commands
+namespace SimpleCommandPattern.Commands
 {
-    internal class GarageDoorOpenCommand : Command
+    internal class GarageDoorDownCommand : Command
     {
         GarageDoor garageDoor;
-        public GarageDoorOpenCommand(GarageDoor garageDoor)
+        public GarageDoorDownCommand(GarageDoor garageDoor)
         {
             this.garageDoor = garageDoor;
         }

@@ -2,7 +2,7 @@
 using System.Text;
 using VendorClasses;
 
-namespace CommandPattern.Classes
+namespace CommandPattern
 {
     internal class RemoteControl
     {

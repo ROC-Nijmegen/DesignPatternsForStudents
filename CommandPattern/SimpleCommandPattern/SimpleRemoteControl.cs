@@ -1,6 +1,6 @@
 ﻿using VendorClasses;
 
-namespace SimpleCommandPattern.Classes
+namespace SimpleCommandPattern
 {
     internal class SimpleRemoteControl
     {

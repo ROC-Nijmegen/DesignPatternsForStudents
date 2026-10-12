@@ -1,6 +1,6 @@
 ﻿using VendorClasses;
 
-namespace SimpleCommandPattern.Classes.Commands
+namespace SimpleCommandPattern.Commands
 {
     internal class StereoOffCommand : Command
     {

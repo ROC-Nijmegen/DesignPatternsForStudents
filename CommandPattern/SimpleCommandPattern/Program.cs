@@ -1,5 +1,4 @@
-﻿using SimpleCommandPattern.Classes;
-using SimpleCommandPattern.Classes.Commands;
+﻿using SimpleCommandPattern.Classes.Commands;
 
 namespace SimpleCommandPattern
 {
