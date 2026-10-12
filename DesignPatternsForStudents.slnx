@@ -1,4 +1,3 @@
 <Solution>
   <Project Path="AdapterPattern/AdapterPattern.csproj" />
-  <Project Path="PondGame/PondGame.csproj" />
 </Solution>
