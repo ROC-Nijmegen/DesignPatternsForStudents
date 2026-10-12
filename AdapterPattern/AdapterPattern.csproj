@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <Reference Include="PondGame">
-      <HintPath>bin\Debug\net8.0\PondGame.dll</HintPath>
+      <HintPath>PondGame.dll</HintPath>
     </Reference>
   </ItemGroup>
 
