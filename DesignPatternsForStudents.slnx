@@ -1,1 +1,4 @@
-<Solution />
+<Solution>
+  <Project Path="CommandPattern/CommandPattern/CommandPattern.csproj" />
+  <Project Path="CommandPattern/SimpleCommandPattern/SimpleCommandPattern.csproj" />
+</Solution>
