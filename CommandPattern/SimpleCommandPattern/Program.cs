@@ -1,5 +1,4 @@
-﻿using SimpleCommandPattern.Classes.Commands;
-
+﻿using VendorClasses;
 namespace SimpleCommandPattern
 {
     internal class Program

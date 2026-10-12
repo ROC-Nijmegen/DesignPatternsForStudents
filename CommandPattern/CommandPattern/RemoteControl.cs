@@ -1,4 +1,4 @@
-﻿using CommandPattern.Classes.Commands;
+﻿using CommandPattern.Commands;
 using System.Text;
 using VendorClasses;
 

@@ -1,6 +1,6 @@
 ﻿using VendorClasses;
 
-namespace CommandPattern.Classes.Commands
+namespace CommandPattern.Commands
 {
     internal class GarageDoorDownCommand : Command
     {
