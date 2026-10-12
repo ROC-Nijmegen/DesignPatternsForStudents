@@ -1,5 +1,4 @@
-﻿using CommandPattern.Interfaces;
-
+﻿using VendorClasses;
 namespace CommandPattern.Classes.Commands
 {
     internal class CeilingFanHighCommand : Command

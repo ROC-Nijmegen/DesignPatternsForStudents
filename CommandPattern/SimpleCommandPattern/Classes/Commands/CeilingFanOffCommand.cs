@@ -1,4 +1,4 @@
-﻿using SimpleCommandPattern.Interfaces;
+﻿using VendorClasses;
 
 namespace SimpleCommandPattern.Classes.Commands
 {
