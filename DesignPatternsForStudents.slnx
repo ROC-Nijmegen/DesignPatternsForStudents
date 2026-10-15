@@ -1,5 +1,4 @@
 <Solution>
   <Project Path="CommandPattern/CommandPattern/CommandPattern.csproj" />
   <Project Path="CommandPattern/SimpleCommandPattern/SimpleCommandPattern.csproj" />
-  <Project Path="CommandPattern/VendorClasses/VendorClasses.csproj" />
 </Solution>
